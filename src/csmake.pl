@@ -117,6 +117,7 @@ if ($0 =~ m/\bcscc$/) {
 	spy('cc', 'spy-gcc');
 	spy('clang', 'spy-gcc');
 	spy('x86_64-linux-gnu-gcc', 'spy-gcc');
+	spy('x86_64-linux-gnu-gcc-8', 'spy-gcc');
 	spy($ENV{'CC'}, 'spy-gcc') if defined($ENV{'CC'});
 	spy('ld', 'spy-ld');
 	spy('ar', 'spy-ar');
